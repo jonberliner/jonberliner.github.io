@@ -25,7 +25,36 @@ input:hover, textarea:hover, blockquote:hover { background:#E5E5E5; }
 
 #wrap { margin:0px auto; text-align:left; font-size: 13px; line-height: 1.4; }
 #container { float:right; }
-#sidebar { overflow:hidden; clear:left; text-align:right; width:250px; height:auto; padding:0px 15px 0px 0px; border-right:1px dotted #C8C8C8; }
+#sidebar {
+    overflow:hidden;
+    clear:left;
+    text-align:right;
+    width:250px;
+    height:auto;
+    padding:0px 15px 0px 0px;
+    border-right:1px dotted #C8C8C8;
+    position:relative;
+}
+
+#sidebarbgimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* sidebar::after { */
+/*   background-image:url('{{ SITEURL }}/theme/images/jb_by_alli_trans.png'); */
+/*   background-repeat:no-repeat; */
+/*   background-size: 100%; */
+/*   opacity: 0.5; */
+/*   position: absolute; */
+/*   z-index: -1; */   
+/* } */
+
 #sidebar li { list-style-type:none; }
 #sidebar > li { margin:20px 0px; }
 #sidebar h1 { border-bottom:1px dotted #C8C8C8; }
@@ -108,3 +137,23 @@ input#s { width:70%; height:auto; margin:5px 0px; }
 
 /* JSB EDITS */
 #forkongithub a{background:#0c0;color:#080;text-decoration:none;font-family:monospace,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:0.7rem;line-height:1rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#080;color:#0c0;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#222;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:fixed;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}
+
+#jbimgcontainer {
+    height: 100%;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+#jbimg {
+    zoom: 2;  //increase if you have very small images
+
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
