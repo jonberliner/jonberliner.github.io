@@ -28,16 +28,54 @@
         
 
             <header>
-            <h1><a href="" id="site-title">  </a>  <a href="/hello-ida.html" id="page-title">hello ida</a></h1>
-<time datetime="2015-06-19T10:44:00-04:00">Fri 19 June 2015</time>            </header>
+            <h1><a href="" id="site-title">  </a>  <a href="/mining-task-roadmap.html" id="page-title">Mining Task Roadmap</a></h1>
+<time datetime="2015-07-15T17:50:00-04:00">Wed 15 July 2015</time>            </header>
 
             <article>
-                <h1>Why, hey there, Ida</h1>
-<p><code>def ida(object):
-    assert not object, "don't objectify me!"</code></p>            </article>
+                <h1>Mining Task research track roadmap:</h1>
+<p><strong>(all are variations on mining task)</strong></p>
+<h2>Bayesian Optimization Experiment:</h2>
+<h3>distinguishing design features:</h3>
+<ul>
+<li>125 rounds</li>
+<li>start w 2/6 observations</li>
+<li>explore/exploit for 2/6 more active samples (how many unknown to user)</li>
+<li>no sample cost</li>
+<li>user receives reward equivalent to deepest sample discovered</li>
+<li><strong>drilling cost is <em>50</em> (is 30 for all other experiments)</strong></li>
+</ul>
+<h3>point of experiment:</h3>
+<ul>
+<li>introduce ideas (GPs and acquisition functions (AFs)) of Bayesian Optimization (BO; lol)  to readers</li>
+<li>get people familiar with the mining task, and how can yield insight beyond fitting scores</li>
+<li>show that AFs from BO can explain decision making for single shot decisions (as opposed to repeated decisions) with a single model rather than explore/exploit weighted hibrids</li>
+<li>show subjects are sensitive to structure in these inf-bandit, reward-based domains (see RLDM, even though it doesn't use this exp.)</li>
+</ul>
+<h3>progress so far:</h3>
+<ul>
+<li>run 30 subs in each group</li>
+<li>structure not perfect like previous fittings; still trying to understand why high and medium volatility group fits look swapped</li>
+</ul>
+<h3>todo:</h3>
+<ul>
+<li>figure out above struct issue</li>
+<li>run fits for infomax, pure exploitation, weighted hybrid, and possibly GP-UCB and PI AFs</li>
+</ul>
+<h2>Exploit-only experiment</h2>
+<h3>distinguishing design features:</h3>
+<ul>
+<li>200 rounds</li>
+<li>start w 2/6 obs</li>
+<li>click where think is deepest - reward equal to depth at that location</li>
+<li></li>
+</ul>            </article>
                 <section id="article-list">
                     <h2>more posts</h2>
                     <ol>
+        
+
+ 
+            <li><a href="/hello-ida.html" rel="bookmark" title="Permalink to hello ida">hello ida</a></li>
         
 
  
