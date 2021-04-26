@@ -8,7 +8,7 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Jon&#39;s got some puzzles.">
+<meta name="description" content="Jon&#39;s got some thoughts.">
 <title>
 Hi!  I&#39;m Jon Berliner.
 </title>
@@ -18,17 +18,29 @@ Hi!  I&#39;m Jon Berliner.
 
 <link rel="shortcut icon" href="/sam.ico">
 
-<!-- <link rel="stylesheet" href="/css/main.min.2caa983050fcc941898c45d6cd3a8e3db35ce5aa7255c97dbe04c3409e9976ac.css" integrity="sha256-LKqYMFD8yUGJjEXWzTqOPbNc5apyVcl9vgTDQJ6Zdqw=" crossorigin="anonymous" media="screen"> -->
-<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic"> -->
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.2caa983050fcc941898c45d6cd3a8e3db35ce5aa7255c97dbe04c3409e9976ac.css" integrity="sha256-LKqYMFD8yUGJjEXWzTqOPbNc5apyVcl9vgTDQJ6Zdqw=" crossorigin="anonymous" media="screen">
+
+
+
+ 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://jonberliner.github.io/tn.png"/>
 
 <meta name="twitter:title" content="Hi!  I&#39;m Jon Berliner."/>
-<meta name="twitter:description" content="Jon&#39;s got some puzzles."/>
+<meta name="twitter:description" content="Jon&#39;s got some thoughts."/>
 
 <meta property="og:title" content="Hi!  I&#39;m Jon Berliner." />
-<meta property="og:description" content="Jon&#39;s got some puzzles." />
+<meta property="og:description" content="Jon&#39;s got some thoughts." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jonberliner.github.io/" />
 <meta property="og:updated_time" content="2019-08-25T18:35:04-04:00"/><meta property="og:site_name" content="Hi!  I&#39;m Jon Berliner" />
@@ -37,16 +49,14 @@ Hi!  I&#39;m Jon Berliner.
     </head>
     <body>
         <div class="section" id="splash">
-            <h1>Welcome to puzzles by JB!</h1>
+            <iframe height="700" width="100%" allowfullscreen="true" style="border:none;width: 100% !important;position: static;display: block !important;margin: 0 !important;"  name="0550a976db50bb4f984eb574d03ed7785d49109c8fbf23b4221a88830defb26e" src="https://amuselabs.com/pmm/date-picker?set=0550a976db50bb4f984eb574d03ed7785d49109c8fbf23b4221a88830defb26e&embed=1"></iframe>
         </div>
         <div class="section" id="splash">
-            <iframe
-                height="700"
-                width="100%" 
-                allowfullscreen="true" 
-                style="border:none;width: 100% !important;position: static;display: block !important;margin: 0 !important;"
-                name="0550a976db50bb4f984eb574d03ed7785d49109c8fbf23b4221a88830defb26e"
-                src="https://amuselabs.com/pmm/date-picker?set=0550a976db50bb4f984eb574d03ed7785d49109c8fbf23b4221a88830defb26e&embed=1"></iframe>
+                <div class="big-link">
+                    <a href="/words">
+                        Words by Jon Berliner
+                    </a>
+                </div>
         </div>
-     </body>
+    </body>
 </html>
