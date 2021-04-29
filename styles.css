@@ -3,17 +3,23 @@ body {
 }
 
 #siteheader {
-    color: #414141;
-    background: #333333;
     text-shadow: #909090 1px 1px 0;
     color: #414141;
     background: #333333;
 }
 
 #listheader {
-    color: #FFFFFF;
-    background: #333333;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     color: #FFFFFF;
     background: #333333;
+}
+
+ul li {
+    transition: all 0.5s ease-out; 
+    transform:  scale(1, 1);
+}
+
+ul li:hover{
+    transition: all 0.2s ease-out; 
+    transform:  scale(1.2, 1.2);
 }
